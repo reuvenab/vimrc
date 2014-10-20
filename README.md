@@ -1,6 +1,6 @@
 # The Ultimate vimrc
 
-Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
+This is tweaked amix/vimrc. 
 
 There are two versions:
 
@@ -30,6 +30,15 @@ I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com
 ## How to install on Windows?
 
 Use [msysgit](http://msysgit.github.com/) to checkout the repository and run the installation instructions above. No special instructions needed ;-)
+
+If you are behind proxy, configure git first
+    git config --global http.proxy http://proxy.address.com:54321
+
+
+
+    cd %HOMEDRIVE%%HOMEPATH% 
+	git clone http://github.com/amix/vimrc.git .vim_runtime
+    .vim_runtime\install_basic_vimrc.bat
 
 
 ## How to update to latest version?
